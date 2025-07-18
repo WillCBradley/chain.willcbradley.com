@@ -14,9 +14,18 @@
         </div>
         <h2 class="idea-subtitle">Nodes</h2>
 
-        <p>This page is currently under construction.</p>
-        <p><a href="https://willcbradley.substack.com/about">Join the list</a> to be notified when the full version goes live.</p>
-        <p> - Will</p>
+        <p>Blockchains are (unsurprisingly) made of blocks.</p>
+        <p>Each block is identified by its unique "hash" - a fingerprint created by running its data through an irreversible algorithm.</p>
+        <p>Aside from the hash, each block may also contain:</p>
+        <ul>
+            <li>A timestamp — this tells us when the block was created.</li>
+            <li>The Merkle root — a hash of all previous transactions on the blockchain, right from the original ("genesis") node.</li>
+            <li>Data — this is where we store information, such as transactions or smart contracts (more on these later).</li>
+            <li>The hash of the previous block in the chain.</li>
+        </ul>
+        <p>Pay attention to that last point — because each block contains the hash of the previous block, they're linked together in sequence, creating a "chain" of blocks.</p>
+        <p>But it's the <i>growth</i> of this chain where things get interesting.</p>
+        <p>Which leads us to forks.</p>
 
         <div class="footer-grid">
             <a href="./decentralisation" class="back-arrow subscribe">←</a>
